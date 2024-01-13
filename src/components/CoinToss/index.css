@@ -1,0 +1,63 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.coinToss-main-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coinToss-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+}
+.coinToss-heads-tails {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+.coinToss-heading {
+  font-size: 25px;
+  color: #a35200;
+  font-family: Roboto;
+  margin-bottom: 10px;
+}
+.coinToss-para {
+  color: #334155;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.coinToss-image {
+  height: 110px;
+  width: 110px;
+  margin-bottom: 10px;
+}
+.coinToss-btn {
+  border-width: 0px;
+  border-radius: 5px;
+  color: #a35200;
+  background-color: #f9d423;
+  font-family: Roboto;
+  height: 25px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 15px;
+  cursor: pointer; 
+  outline: none;
+}
+.coinToss-total {
+  margin:10px;
+  color:#475569;
+  font-size:13px;
+}
